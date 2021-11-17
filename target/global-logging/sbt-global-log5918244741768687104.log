@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(scala-version, Some(bf90ac35-694a-42c9-a031-47875156153b), Some(CommandSource(console0)))[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid command: scala-version (similar: session)[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid project ID: scala-version[0m
-[0m[[0m[31merror[0m] [0m[0mExpected ':'[0m
-[0m[[0m[31merror[0m] [0m[0mNot a valid key: scala-version (similar: scalaVersion, scalaBinaryVersion, crossScalaVersions)[0m
-[0m[[0m[31merror[0m] [0m[0mscala-version[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
