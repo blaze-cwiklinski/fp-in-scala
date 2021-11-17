@@ -3,6 +3,7 @@
 .vscode
 .history
 .bsp
+.bloop
 
 target/
 project/boot/
