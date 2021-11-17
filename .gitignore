@@ -1,3 +1,10 @@
 *.class
 .metals
 .vscode
+.history
+.bsp
+
+target/
+project/boot/
+project/plugins/project/
+project/local-plugins.sbt
