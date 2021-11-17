@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0mCouldn't retrieve `org.scala-lang:scala3-compiler:3.0.0` : Error downloading org.scala-lang:scala3-compiler_3.0.0:3.0.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/blaze/.ivy2/localorg.scala-lang/scala3-compiler_3.0.0/3.0.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3.0.0/3.0.0/scala3-compiler_3.0.0-3.0.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://jcenter.bintray.com/org/scala-lang/scala3-compiler_3.0.0/3.0.0/scala3-compiler_3.0.0-3.0.0.pom.[0m
+[0m[[0m[31merror[0m] [0m[0m([31mscalaInstance[0m) Couldn't retrieve `org.scala-lang:scala3-compiler:3.0.0` : Error downloading org.scala-lang:scala3-compiler_3.0.0:3.0.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/blaze/.ivy2/localorg.scala-lang/scala3-compiler_3.0.0/3.0.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3.0.0/3.0.0/scala3-compiler_3.0.0-3.0.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://jcenter.bintray.com/org/scala-lang/scala3-compiler_3.0.0/3.0.0/scala3-compiler_3.0.0-3.0.0.pom.[0m
