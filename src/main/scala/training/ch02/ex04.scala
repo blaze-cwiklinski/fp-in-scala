@@ -1,4 +1,5 @@
 package training
+
 import ex03._
 
 object ex04 {
