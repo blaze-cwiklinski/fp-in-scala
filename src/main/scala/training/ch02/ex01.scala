@@ -1,4 +1,4 @@
-package training
+package ch02
 
 import scala.annotation.tailrec
 

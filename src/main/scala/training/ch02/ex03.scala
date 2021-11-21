@@ -1,4 +1,4 @@
-package training
+package ch02
 
 object ex03 {
 
