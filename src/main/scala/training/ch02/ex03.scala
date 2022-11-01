@@ -1,7 +1,6 @@
-package ch02
+package training.ch02
 
 object ex03 {
-
 
     val moreThan = new Function2[Int, Int, Boolean] {
         def apply(a: Int, b: Int) = a > b

@@ -1,4 +1,4 @@
-package ch02
+package training.ch02
 
 import scala.annotation.tailrec
 
@@ -17,7 +17,7 @@ object ex02 {
 
     def main(args: Array[String]): Unit = {
 
-        val ascendingList = 0 to 10 toList 
+        val ascendingList = (0 to 10).toList
         val notAsendingList = 5 :: ascendingList
         val descendingList = ascendingList.reverse
         val notDescendingList = 5 :: descendingList
