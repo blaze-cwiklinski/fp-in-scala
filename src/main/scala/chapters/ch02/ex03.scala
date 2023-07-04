@@ -6,15 +6,15 @@ object ex03 {
         def apply(a: Int, b: Int) = a > b
     }
 
-    // pobieramy a i funkcję f
-    // zwracamy strukturę, która oczekuje b
-    // jesli zaaplikujemy na niej b, to dostaniemy c
+    // we're taking an argument 'a', and a function 'f'
+    // we're returning a structure, that expects another argument: 'b'
+    // when we'll apply that 'b', we'll get 'c'
     def partial1[A,B,C](a: A, f: (A, B) => C): B => C = {
         (b: B) => f(a, b)
     }
 
-    // pobieramy funkcję oczekującą a i b
-    // (w kolejnych nawiasach, i.e. w kolejnych listach argumentów)
+    // we're taking a function that expects 2 arguments: 'a' and 'b'
+    // in the following argument lists, i.e. parentheses
     def curry[A,B,C](f: (A, B) => C): A => B => C = {
         a => b => f(a, b)
     }
