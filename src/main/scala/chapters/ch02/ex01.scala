@@ -31,5 +31,7 @@ object ex01 {
         val interval = 0 to 5
 
         for (arg <- interval) println(string.format(arg, fibonacci_optimal(arg)))
+        //println(fibonacci_optimal(50))    // takes 1 s
+        //println(fibonacci_bad(50))        // takes 100 s
     }
 }
