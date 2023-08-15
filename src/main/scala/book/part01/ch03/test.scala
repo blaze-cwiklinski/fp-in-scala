@@ -1,4 +1,4 @@
-package training.ch03
+package fp.part01.ch03
 
 object test {
     def main(args: Array[String]): Unit = {

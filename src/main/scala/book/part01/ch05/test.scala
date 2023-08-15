@@ -1,4 +1,4 @@
-package training.ch05
+package fp.part01.ch05
 
 import Stream._
 

@@ -1,4 +1,4 @@
-package training.ch04
+package fp.part01.ch04
 
 import scala.{Option => _, None => _, Some => _}
 

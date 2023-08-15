@@ -1,4 +1,4 @@
-package training.ch03
+package fp.part01.ch03
 
 sealed trait SinglyLinkedList[+A]
 case object Nil extends SinglyLinkedList[Nothing]

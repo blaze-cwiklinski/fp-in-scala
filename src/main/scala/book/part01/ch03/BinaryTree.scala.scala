@@ -1,4 +1,4 @@
-package training.ch03
+package fp.part01.ch03
 
 sealed trait BinaryTree[+A]
 case class Leaf[A](value: A) extends BinaryTree[A]

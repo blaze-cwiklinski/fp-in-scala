@@ -1,4 +1,4 @@
-package training.ch06
+package fp.part01.ch06
 
 case class State[S,+A](run: S => (A, S)){
     // needed to see the signature from the official repo

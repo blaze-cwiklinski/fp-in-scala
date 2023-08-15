@@ -1,4 +1,4 @@
-package training.ch04   
+package fp.part01.ch04
 
 sealed trait Either[+E, +A] {
     def map[B](f: A => B): Either[E, B]
