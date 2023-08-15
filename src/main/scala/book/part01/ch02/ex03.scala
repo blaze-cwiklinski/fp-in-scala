@@ -1,4 +1,4 @@
-package training.ch02
+package fp.part01.ch02
 
 object ex03 {
 

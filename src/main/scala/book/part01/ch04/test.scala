@@ -1,8 +1,8 @@
-package training.ch04
+package fp.part01.ch04
 
-import training.ch04.Option._
-import training.ch04.Either.{mean => meanE, traverse => traverseE, sequence => sequenceE}
-import training.ch04.Person._
+import fp.part01.ch04.Option._
+import fp.part01.ch04.Either.{mean => meanE, traverse => traverseE, sequence => sequenceE}
+import fp.part01.ch04.Person._
 
 object test {
 

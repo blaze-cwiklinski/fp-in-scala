@@ -1,4 +1,4 @@
-package training.ch06
+package fp.part01.ch06
 
 sealed trait Input
 case object Coin extends Input

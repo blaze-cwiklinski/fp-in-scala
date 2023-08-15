@@ -1,4 +1,4 @@
-package training.ch05
+package fp.part01.ch05
 
 sealed trait Stream[+A] {
     def foldRight[B](z: => B)(f: (A, => B) => B): B = this match {

@@ -1,6 +1,6 @@
-package training.ch02
+package fp.part01.ch02
 
-import training.ch02.ex03._
+import fp.part01.ch02.ex03._
 
 object ex04 {
 
