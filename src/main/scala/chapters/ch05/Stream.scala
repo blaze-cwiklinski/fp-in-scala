@@ -130,7 +130,7 @@ object Stream {
             case _ => Some(a, a)
         }
     
-    def onesViaUnfold(): Stream[Int] =
+    def onesViaUnfold: Stream[Int] =
         unfold(1){
             case _: Int => Some(1, 1)
         }
