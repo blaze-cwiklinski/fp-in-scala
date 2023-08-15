@@ -1,7 +1,5 @@
 package training.ch06
 
-import javax.swing.InputMap
-
 sealed trait Input
 case object Coin extends Input
 case object Turn extends Input
@@ -22,7 +20,7 @@ object Simulation {
 
     def simulateMachine(input: List[Input]): State[Machine, (Int, Int)] =
         for {
-            _ <- State.traverse(input)(i => State.modify(evaluateInput(i, _)))
+            _ <- State.traverse(input)(i => State.modify(evaluateInput(_, i)))
             s <- State.get
         } yield (s.candies, s.coins)
 }

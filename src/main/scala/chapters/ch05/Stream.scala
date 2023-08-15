@@ -1,8 +1,5 @@
 package training.ch05
 
-import scala.concurrent.ExecutionContext.Implicits
-
-
 sealed trait Stream[+A] {
     def foldRight[B](z: => B)(f: (A, => B) => B): B = this match {
         case Cons(h, t) => f(h(), t().foldRight(z)(f))
